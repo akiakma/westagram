@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin:0px;
+    background: #fafafa
+}
+
+.nav1{
+    border-bottom: 1px solid #e6e6e6;
+    height:77px;
+    display:flex;
+    justify-content: center;
+    background: #FFFFFF
+}
+.nav1Child{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between;  
+    width:975px;
+    height:77px;
+    margin-top:15px;
+
+}
+.nav1LogoLeft{
+    width:360px;
+    height:36px;
+    padding:7px;
+}
+.nav1Search{
+    margin-top:7px;
+    width:215px;
+    height:28px;
+}
+.nav1SearchChild{
+    font-weight: lighter;
+    font-size:14px;
+    width:215px;
+    height:28px;
+    text-align:center;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+}
+.button1{
+    margin-top:10px;
+}
+.nav1Right{
+    width:360px;
+    height:24px;
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+    
+}
+.nav1LogoRight{
+    width:156px;
+    height:24px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.c1c2 {
+    width: 24px;
+    height: 24px;
+    margin-bottom:2px;
+    margin-right:10px;
+}
+.c2c2{
+    width: 103px;
+    height: 29px;
+    border-left:1px solid black;
+    padding-left:10px;
+
+}
+.c3c1, .c3c2, .c3c3{
+    width:24px;
+    height:24px;
+}
+
+/* nav는 여기가까지
+아래는 피드창*/
+
+.mainTitle{
+    width:935px;
+    
+
+    background-color: #fafafa;
+    margin-left:22%;
+    display:flex;
+}
+.divFeeds{
+    width:614px;
+
+    background-color: #FFFFFF;
+    margin-top:60px;
+    border: 1px solid rgba(200,200,200, 1);
+    border-radius:3px;
+}
+.article{
+}
+.twiceLogo{
+    margin-left:10px;
+    margin-top:10px;
+    width:40px;
+    height:40px;
+    border:2px solid pink;
+    border-radius: 50px;
+}
+.twiceText{
+    margin-left:10px;
+    margin-top:20px;
+    color:262626;
+    font-size:18px;
+    font-weight:bold;
+}
+.dotDot{
+    margin-top:16px;
+    margin-right:15px;
+    width:23px;
+    height:23px;
+}
+.twiceLogoText{
+    display:flex;
+    
+}
+.nav2{
+    width:614px;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgba(var(--b6a,219,219,219),1);
+
+}
+.mainPicture{
+    width:614px;
+    height:614px;
+
+}
+.mainPictureChild{
+    width:614px;
+    height:614px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainPictureChild1{
+
+    position: absolute;
+    margin-top:-2px;
+    margin-right:2px;
+    width:613px;
+}
+.status{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+.status1{
+    margin-left:10px;
+}
+.status1 img{
+    margin:6px;
+    width:25px;
+    height:25px;
+}
+
+.status3 {
+    width:25px;
+    height:25px;
+    margin-right:10px;
+}
+.like1{
+    margin-left:15px;
+    font-weight: 500;
+    font-size:14px;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.text0{
+    margin-top:5px;
+}
+.text1{
+    margin-left:15px;
+    font-weight: 500;
+    font-size:14px;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.text2{
+    margin-left:8px;
+    font-weight: 300px;
+    font-size:15px;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.text3{
+    margin-top:3px;
+    margin-left:15px;
+    font-weight: 400;
+    font-size:14px;
+    color: #999999;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.text4{
+    margin-top:7px;
+    margin-left:15px;
+    font-weight: 400;
+    font-size:9px;
+    color: #999999;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.button1{
+    display:flex;
+    justify-content:space-between;
+    width:614px;
+    height:56px;
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.button2{
+    width:500px;
+    height:35px;
+    
+
+    border:0 solid black;
+    margin-top:10px;
+    margin-left:13px;
+}
+.button2::placeholder{
+    font-size:14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.button3{
+    margin-right:20px;
+    border: 0;
+    outline: 0;
+    color: rgba(var(--h5f,56,151,240),1);
+    font-size:14px;
+}
+.divMainRight{
+    width:293px;
+   
+}
+.profile1{
+    margin-top:5px; /*지울것*/
+    width:293px;
+    height:50px;
+    display:flex;
+    
+
+}
+.profile2 {
+    width:50px;
+    height:50px;
+}
+.profileName{
+    margin-left:15px;
+    margin-top:5px;
+}
+.profileNameText1{
+    margin-top:3px;
+    font-weight: 500;
+    font-size:14px;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.profileNameText2{
+    font-weight: 400;
+    font-size:14px;
+    color: #999999;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.story1{
+    margin-top:20px;
+    width:293px;
+    height:223px;
+    background-color: rgb(0, 255, 170);
+    background-color: #FFFFFF;
+    border: 1px solid rgba(200,200,200, 1);
+    border-radius:3px;
+}
+.story1Row{
+    margin-top: 10px;
+    margin-left:5px;
+    margin-right:5px;
+    display:flex;
+    
+    justify-content:space-between;
+}
+.story1Text1{
+    margin-left:5px;
+    color: #999999;
+    
+}
+.story1Text2{
+    color: #262626;
+    margin-right:15px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+.tw51{
+    height:100px;
+    display:flex;
+    flex-direction: row;
+}
+.go1go2{
+    margin:0;
+}
+.twiceText1{
+    font-weight: 500;
+    font-size:14px;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.text41{
+    margin-top:3px;
+    font-weight: 400;
+    font-size:9px;
+    color: #999999;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.go1go2{
+    
+    margin-top:14px;
+    margin-left:6px;
+}
+
+.recommend1{
+
+    margin-top:13px;
+    background-color: #FFFFFF;
+    width:293px;
+    height:197px;
+    border: 1px solid rgba(200,200,200, 1);
+    border-radius:3px;
+}
+.m1{
+    margin:10px 5px 0px 5px;
+    display:flex;
+    justify-content:space-between;
+}
+.m2{
+    color: #999999;
+    margin-left:5px;
+}
+.m3{
+    margin-right:15px;
+    color: #262626;
+    font-size: 13px;
+}
+.lastsamurai{
+    display:flex;
+    margin-top:10px;
+    margin-left:10px;
+
+}
+.gone{    width:40px;
+    height:40px;
+    border:2px solid pink;
+    border-radius: 50px;
+}
+.gone1{
+    margin-top:5px;
+    margin-left:12px;
+    font-weight: 500;
+    font-size:14px;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.gone2{font-weight: 400;
+    font-size:11px;
+    color: #999999;
+   
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.gon3{
+    color:#3897f0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left:84px;
+    margin-top:12px;
+
+}
+.please{
+    width:293px;
+    margin-top:56px;
+    margin-left:30px;
+}

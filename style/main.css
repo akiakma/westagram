@@ -148,8 +148,9 @@ body{
 .mainPictureChild1{
 
     position: absolute;
-
-    width:614px;
+    margin-top:-2px;
+    margin-right:2px;
+    width:613px;
 }
 .status{
     display:flex;
@@ -221,8 +222,12 @@ body{
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
 }
 .button2{
+    width:500px;
+    height:35px;
+    
+
     border:0 solid black;
-    margin-top:5px;
+    margin-top:10px;
     margin-left:13px;
 }
 .button2::placeholder{
